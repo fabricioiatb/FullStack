@@ -10,6 +10,11 @@
     margin-left: auto;
     margin-right: auto;
 }
+/*centralizei o texto para acesso ao meu linkedin*/
+#h01 {
+    text-align: center;
+}
+
 /*coloquei o fundo gold na linha do meu nome*/
 .div_eu h1{
    text-align: center;
@@ -22,13 +27,54 @@
     outline: 4px solid black; 
 }
 
-/* colocar uma caixa para os textos*/
+/* colocar uma caixa preta para os textos*/
 .caixa {
     background-color: black; 
     color: white; 
     padding: 10px; 
     border-radius: 5px; 
     width: fit-content; 
+}
+
+/* colocar uma caixa dourada para os textos*/
+.caixa2 {
+    background-color: goldenrod; 
+    color: black; 
+    padding: 10px; 
+    border-radius: 5px; 
+    width: fit-content; 
+}
+/* colocar uma caixa verde para os textos*/
+.caixa3 {
+    background-color:greenyellow; 
+    color: black; 
+    padding: 10px; 
+    border-radius: 5px; 
+    width: fit-content; 
+}
+/*configurações para poder fzr um hover e usar como bait criando uma brincadeira*/
+#surpresa {
+    text-align: center;
+    color: black;
+    background-color: black; 
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black; 
+    
+}
+
+#surpresa:hover {
+    color: white;
+    background-color: black
+}
+
+/*centralizei o texto para acesso ao meu linkedin*/
+.h02 {
+    text-align: center;
 }
 
 
