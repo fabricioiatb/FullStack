@@ -1,0 +1,19 @@
+p{
+    color:blueviolet;
+}
+h1{
+    font-size: big;
+}
+#id_fei{
+    color: green;
+}
+.info{
+    color: yellow;
+}
+div #lugar{
+    color: rgb(245, 28, 198);
+}
+
+p:hover {
+    color: darksalmon;
+}
