@@ -1,15 +1,34 @@
-/* centralizar imagem e texto*/
+/* centralizei imagem e texto*/
 .div_eu img{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-/*Colocar o fundo gold na linha do meu nome*/
+/* centralizei imagem e texto*/
+.icone img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*coloquei o fundo gold na linha do meu nome*/
 .div_eu h1{
    text-align: center;
-   background-color: gold;
+   background-color: goldenrod;
 }
 
+/* coloquei uma borda mais o menos estilizada*/
+.div_eu img {
+    border: 2px solid goldenrod; 
+    outline: 4px solid black; 
+}
 
+/* colocar uma caixa para os textos*/
+.caixa {
+    background-color: black; 
+    color: white; 
+    padding: 10px; 
+    border-radius: 5px; 
+    width: fit-content; 
+}
 
 
