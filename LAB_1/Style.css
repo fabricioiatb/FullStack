@@ -1,0 +1,15 @@
+/* centralizar imagem e texto*/
+.div_eu img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Colocar o fundo gold na linha do meu nome*/
+.div_eu h1{
+   text-align: center;
+   background-color: gold;
+}
+
+
+
+
