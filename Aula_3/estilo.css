@@ -1,6 +1,9 @@
 div{
     margin: 10px;
     padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px gray0
+    ;
 }
 
 .dotted {
@@ -9,8 +12,32 @@ div{
 
 .dashed {
     border-style: dashed;
+    width: 200px;
 }
 
 .solid {
     border-style: solid;
+    
 }
+
+p, a{
+    background-color: blueviolet;
+
+}
+
+p{
+    display: inline;
+}
+
+a{
+    display: block;
+}
+
+#div_1{
+    background-color: beige;
+}
+
+#div_2{
+    background-size: 27px;
+}
+
