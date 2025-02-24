@@ -72,9 +72,78 @@
     background-color: black
 }
 
-/*centralizei o texto para acesso ao meu linkedin*/
+/*centralizei o texto da mensagem da piada*/
 .h02 {
     text-align: center;
 }
 
 
+/* Centralizar a seção Onde Estudo */
+.titulo-estudo {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.mapa {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid goldenrod;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Estilização dos cards de investidores */
+.investidor {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.investidor:hover {
+    transform: scale(1.05);
+}
+
+/* Estilização da imagem dos investidores */
+.imagem-investidor {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid goldenrod;
+    margin-bottom: 15px;
+}
+
+/* Estilização dos links dos investidores */
+.link-investidor {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0056b3;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.link-investidor:hover {
+    color: goldenrod;
+}
+
+/* Ajuste do tamanho dos vídeos */
+.video-investidor {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 3px solid goldenrod;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
