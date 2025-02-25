@@ -1,42 +1,32 @@
-/* centralizei imagem e texto*/
 .div_eu img{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-/* centralizei imagem e texto*/
 .icone img{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-/*centralizei o texto para acesso ao meu linkedin*/
 #h01 {
     text-align: center;
 }
-
-/*coloquei o fundo gold na linha do meu nome*/
 .div_eu h1{
    text-align: center;
    background-color: goldenrod;
 }
-
-/* coloquei uma borda mais o menos estilizada*/
 .div_eu img {
     border: 2px solid goldenrod; 
     outline: 4px solid black; 
 }
-
-/* colocar uma caixa preta para os textos*/
 .caixa {
     background-color: black; 
     color: white; 
     padding: 10px; 
     border-radius: 5px; 
-    width: fit-content; 
+    width: fit-content;
+    text-align: center; 
 }
-
-/* colocar uma caixa dourada para os textos*/
 .caixa2 {
     background-color: goldenrod; 
     color: black; 
@@ -44,7 +34,6 @@
     border-radius: 5px; 
     width: fit-content; 
 }
-/* colocar uma caixa verde para os textos*/
 .caixa3 {
     background-color:greenyellow; 
     color: black; 
@@ -52,7 +41,6 @@
     border-radius: 5px; 
     width: fit-content; 
 }
-/*configurações para poder fzr um hover e usar como bait criando uma brincadeira*/
 #surpresa {
     text-align: center;
     color: black;
@@ -63,22 +51,15 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    color: black; 
-    
+    color: black;    
 }
-
 #surpresa:hover {
     color: white;
     background-color: black
 }
-
-/*centralizei o texto da mensagem da piada*/
 .h02 {
     text-align: center;
 }
-
-
-/* Centralizar a seção Onde Estudo */
 .titulo-estudo {
     text-align: center;
     font-size: 2em;
@@ -94,9 +75,6 @@
     border-radius: 10px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
-
-
-/* Estilização dos cards de investidores */
 .investidor {
     background-color: white;
     border-radius: 10px;
@@ -105,14 +83,11 @@
     max-width: 600px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
     text-align: center;
-    transition: transform 0.3s ease-in-out;
 }
 
 .investidor:hover {
     transform: scale(1.05);
 }
-
-/* Estilização da imagem dos investidores */
 .imagem-investidor {
     width: 150px;
     height: 150px;
@@ -121,8 +96,6 @@
     border: 3px solid goldenrod;
     margin-bottom: 15px;
 }
-
-/* Estilização dos links dos investidores */
 .link-investidor {
     display: block;
     text-decoration: none;
@@ -130,14 +103,11 @@
     color: #0056b3;
     font-size: 1.2em;
     margin-bottom: 10px;
-    transition: color 0.3s ease-in-out;
 }
 
 .link-investidor:hover {
     color: goldenrod;
 }
-
-/* Ajuste do tamanho dos vídeos */
 .video-investidor {
     width: 100%;
     max-width: 560px;
@@ -146,9 +116,4 @@
     border-radius: 10px;
     border: 3px solid goldenrod;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* cor de fundo*/
-.fundo{
-    background-color:darkgrey
 }
