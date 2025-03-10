@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Juros Compostos - Barsi Investimentos</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="logo.jpg.png" alt="Barsi Investimentos" class="logo">
+        <h2>Calculadora de Juros Compostos</h2>
+        <label>Capital Inicial (R$):</label>
+        <input type="number" id="capital" placeholder="Digite o valor inicial">
+        
+        <label>Taxa de Juros (% ao mês):</label>
+        <input type="number" id="taxa" placeholder="Digite a taxa de juros">
+        
+        <label>Período (meses):</label>
+        <input type="number" id="tempo" placeholder="Digite a quantidade de meses">
+        
+        <button onclick="calcularJuros()">Calcular</button>
+        
+        <h3 id="resultado"></h3>
+        
+        <canvas id="grafico"></canvas>
+
+        <a href="https://www.barsiinvestimentos.com.br" target="_blank" class="site-button">
+            Acesse o nosso site
+        </a>
+        <p class="legenda">Entre em contato com um de nossos assessores.</p>
+    </div>
+
+    <script>
+        function calcularJuros() {
+            let capital = parseFloat(document.getElementById("capital").value);
+            let taxa = parseFloat(document.getElementById("taxa").value) / 100;
+            let tempo = parseInt(document.getElementById("tempo").value);
+            
+            let valores = [];
+            let meses = [];
+            
+            for (let i = 0; i <= tempo; i++) {
+                let montante = capital * Math.pow(1 + taxa, i);
+                valores.push(montante.toFixed(2));
+                meses.push(i);
+            }
+            
+            document.getElementById("resultado").innerHTML = `Montante final: R$ ${valores[tempo]}`;
+            desenharGrafico(meses, valores);
+        }
+        
+        function desenharGrafico(labels, data) {
+            let ctx = document.getElementById("grafico").getContext("2d");
+            
+            if (window.meuGrafico) {
+                window.meuGrafico.destroy();
+            }
+            
+            window.meuGrafico = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Crescimento do Investimento',
+                        data: data,
+                        borderColor: '#FFC300',
+                        backgroundColor: 'rgba(255, 195, 0, 0.2)',
+                        borderWidth: 2,
+                        fill: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
