@@ -1,130 +1,107 @@
-body {
+body{
+    background-color: lightgray;
+    width: 80%;
+}
+#imagem_1{
+    height: 200;
+    width: 200;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    right: 100px;
+}
+#texto_caixa{
+   text-align: center;
+   font-size: larger;
+   color: darkgreen;
+   position: absolute;
+     top: 80px;
+    left: 765px;
+}          
+#fogo_imagem{
+    position: relative;
+    left: 1450px;
+    height: 200px;
+    width: 200px;
+}
+.primeiro_quadrado{
+    border: 4px solid darkblue;
     background-color: bisque;
+    top: 300px;
+    padding: 17px;
+}
+#texto_foto{
     text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-.top {
-    background-color: lightskyblue;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.logo {
-    width: 80px;
-}
-
-h1 {
-    color: darkgreen;
-    font-size: 28px;
-}
-
-nav {
-    background-color: darkgreen;
+    word-spacing: 120px;
+    color: darkred;
+    background-color:  lightskyblue;
     padding: 10px;
 }
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
+.titulos{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.intro {
-    padding: 20px;
-    font-size: 20px;
-}
-
-.books {
-    padding: 20px;
-}
-
-.books h2 {
-    font-size: 22px;
+.texto{
+    text-align: center;
+    font-size: 23px;
     color: indigo;
 }
 
-.book-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.imagens{
+    text-align: center;
+    word-spacing: 120px;
 }
 
-.book-container img {
-    width: 200px;
-    height: auto;
+#iframe{
+    text-align: center;
+    word-spacing: 120px;
 }
 
-.learning {
-    padding: 20px;
-    background-color: lightgray;
-}
+.fixed{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: red;
+    border-style: dashed;
+   
+  }
 
-.video-map {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 10px;
-}
-
-.contacts {
-    padding: 20px;
-}
-
-.contacts table {
-    width: 50%;
-    margin: auto;
-    border-collapse: collapse;
-}
-
-.contacts th, .contacts td {
-    border: 1px solid darkred;
+  .cabecalho{
+    font-weight: bold;
+    color: red;
     padding: 10px;
+  }
+  .conteudo{
+    padding: 15px;
+  }
+  #tabela_links{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    left: 50%;
+  }
+#imagem_html{
+    position: absolute;
+    left: 20px;
+    top: 2460px;
 }
-
-.contacts th {
-    background-color: red;
-    color: white;
+#desejamos{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    left: 620px;
+    top: 2500px;
 }
-
-.contacts td {
-    background-color: yellow;
+#imagem_css{
+    position: absolute;
+    left: 1535px;
+    top: 2460px;
 }
-
-footer {
-    background-color: lightgray;
-    padding: 20px;
-    font-family: "Comic Sans MS";
-    font-size: 15px;
-}
-
-.resources ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.resources span {
-    color: darkred;
-}
-
-.logos {
-    margin-top: 10px;
-}
-
-.logos img {
-    width: 60px;
-    margin: 10px;
+.segundo_quadrado{
+    border: 2px;
+    background-color: bisque;
+    padding: 110px;
 }
