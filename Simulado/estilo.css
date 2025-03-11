@@ -1,0 +1,22 @@
+.caixa{
+    color: white;
+    background-color: rgb(83, 9, 69);
+    width: 127px;
+    height: 130px;
+    text-align: left;
+    padding: 7px;
+
+}
+
+#txt1{
+    font-size: medium;
+    font-weight: bold;
+}
+#txt2{
+    font-size: x-large;
+    font-weight: bold;
+}
+#txt3{
+    font-size: x-large;
+    font-weight: bold;
+}
